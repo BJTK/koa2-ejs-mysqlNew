@@ -1,5 +1,5 @@
 const router = require('koa-router')()
-
+//路由添加前缀
 router.prefix('/users')
 
 router.get('/', function (ctx, next) {
